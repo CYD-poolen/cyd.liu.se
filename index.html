@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Welcome to CYD-poolen</h1>
+
+CYD-poolen is a computer lab for students attending the programs C, Y, D, IT and Ling (Di and Ei) at Linköping University. There is a [complete list of which programs that have access to CYD-poolen](program.php). CYD-poolen aims to provide the best possible service to all students with access to the lab.
+
+CYD-poolen is located in house B. The simplest way to get here is to use entrance B27 and follow the corridor straight ahed until you get to the C corridor (the third one). Take right and move into the C corridor, and at the left side you will find CYD-poolen.
+
+<img src="//www.cyd.liu.se/status.png" width="80%" height="80%" id="overview" alt="CYD-poolen status overview" />
+
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+	<div id="Emptyspace"></div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

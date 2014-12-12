@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div id="Navigation">
+		<a class="site-title" href="{{ site.baseurl }}/">
+			<img id="Logo" src="{{ site.baseurl }}/img/cyd.png" alt="{{ site.title }}"/>
+		</a>
+    <ul>
+      {% for page in site.pages %}
+      {% if page.title %}
+      <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <img id="Indicator" src="{{ site.baseurl }}/img/indicator.png" alt="" />
+  </div>
+
+	<ul id="MobileHeader">
+		<li class="ib pointer menuButton">
+			<img src="{{ site.baseurl }}/img/menu.png" alt="Menu icon"/>
+			<h3 class="ib"> Menu </h3>
+		</li>
+		<li class="ib" alt="Company Logo">
+			<div class="ib" id="SmallJC"></div>
+			<div class="ib" id="SmallDesign"></div>
+		</li>
+	</ul>
+</header>
