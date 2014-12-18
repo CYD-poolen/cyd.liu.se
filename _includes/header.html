@@ -1,16 +1,26 @@
 <header class="site-header">
   <div id="Navigation">
+    <img id="Indicator" src="{{ site.baseurl }}/img/indicator.png" alt="" />
 		<a class="site-title" href="{{ site.baseurl }}/">
 			<img id="Logo" src="{{ site.baseurl }}/img/cyd.png" alt="{{ site.title }}"/>
 		</a>
     <ul>
       {% for page in site.pages %}
       {% if page.title %}
-      <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      <li><a class="page-link" id="{{page.url | replace:'/',''}}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
       {% endif %}
       {% endfor %}
+			{{ page.navigation }}
+			{% for hash in page.navigation %}
+			{% for pair in hash %}
+      <h3>
+        <a name="{{ pair[1] }}" class="anchor"
+           href="#{{ pair[1] }}">
+        </a>{{ pair[0] }}
+      </h3>
+			{% endfor %}
+			{% endfor %}
     </ul>
-    <img id="Indicator" src="{{ site.baseurl }}/img/indicator.png" alt="" />
   </div>
 
 	<ul id="MobileHeader">

@@ -7,12 +7,12 @@ $(document).ready(function(){
 	var indicator = $('#Indicator');
 
 	// Place the indicator in the right position at page load.
-	indicator.css({marginTop: getPosition()});
+	indicator.css({marginTop: getIndicatorPosition()});
 	// Set some settings in the localscroll plugin.
 	navigation.localScroll({duration:800, hash:true});
 
 	$(window).hashchange( function(){
-		position = getPosition();
+		position = getIndicatorPosition();
 		indicator.animate({marginTop: position},function(){
 			// If a phone is viewing the page.
 			if(mobileHeader.css('display') != 'hidden'){
@@ -52,16 +52,10 @@ $(document).ready(function(){
 	}
 });
 
-function getPosition(){
-	var hash = location.hash;
-	var position;
-	if(hash == '#services')
-		position = '-6.6em';
-	else if(hash == '#projects')
-		position = '-5.3em';
-	else if(hash == '#contact')
-		position = '-3.9em';
-	else if(hash == '#jobs')
-		position = '-2.6em';
-	return position;
+function getIndicatorPosition(){
+	if(location.hash === ""){
+		var page = location.pathname.split('/');
+		page = page[page.length - 2];
+		return $('#' + page).position().top - 8;
+	}
 }
