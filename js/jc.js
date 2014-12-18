@@ -11,7 +11,7 @@ $(document).ready(function(){
 	// Set some settings in the localscroll plugin.
 	navigation.localScroll({duration:800, hash:true});
 
-	$(window).hashchange( function(){
+	window.onhashchange = function(){
 		position = getIndicatorPosition();
 		indicator.animate({marginTop: position},function(){
 			// If a phone is viewing the page.
@@ -19,7 +19,7 @@ $(document).ready(function(){
 				closeMenuOnMobile(400);
 			}
 		});
-	});
+	};
 
 	// Opening the menu on phones or small screens.
 	mobileHeader.click(function(){
