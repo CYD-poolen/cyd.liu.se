@@ -63,16 +63,21 @@ h1{
     margin: 0 0 0.8em 0;
     clear: left;
 }
+h2{
+    font-size: 1.6em;
+    margin: 1em 0 0.5em 0;
+}
 h3{
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin: 1em 0 0.5em 0;
 }
 h4{
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0.3em 0;
 }
 h5{
-    font-size: 1.1em;
+    font-size: 0.9em;
+    margin: 0.3em 0 0 0;
 }
 div#Navigation{
     background-image: url("../img/bg.png");
