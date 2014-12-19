@@ -56,6 +56,9 @@ function getIndicatorPosition(){
 	if(location.hash === ""){
 		var page = location.pathname.split('/');
 		page = page[page.length - 2];
+		console.debug(page);
+		if (page === "_site")
+			return $('#Logo').position().top + 100;
 		return $('#' + page).position().top - 8;
 	}
 }
