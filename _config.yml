@@ -10,6 +10,3 @@ github_username: rovanion
 
 # Build settings
 markdown: kramdown
-
-kramdown:
-auto_id: true
