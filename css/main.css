@@ -49,9 +49,9 @@ a:hover{
 		text-decoration: underline;
 }
 
-p{
+p, td{
 		font-family: Helvetica, sans-serif;
-		color: #333;
+		color: #000;
 		line-height: 1.8em;
 		margin: 2em 0;
 }
@@ -90,11 +90,14 @@ div#Navigation{
 		box-shadow: -5px -5px 5px 0px rgba(0, 0, 0, 0.1) inset;
 }
 
+table{
+		width: 100%;
+}
 ul{
 		padding: 0.5em 0 0.8em 1.3em;
 }
 nav{
-		padding: 0.5em 0 0.8em 1em;
+		padding: 0.4em 0 0 1em;
 }
 ul#MobileHeader{
 		padding: 0;
@@ -112,7 +115,7 @@ li.ib h3{
 		margin: 0;
 }
 li.menuButton img{
-		margin: 0 0 -0.23em 0;
+		margin: 0 0.5em -0.23em 0;
 }
 div{
 		overflow:auto;
@@ -141,6 +144,17 @@ img{
 img#Logo{
 		padding: 0.8em 0 0 19px;
 }
+img#Status{
+		width: 80%;
+		height: 80%;
+}
+img#Indicator{
+		position: absolute;
+		display: inline;
+		margin-top: -100em;
+		margin-left: 132px;
+}
+
 div#SmallJC{
 		display: none;
 		height: 6em;
@@ -151,12 +165,6 @@ div#SmallJC{
 		background-position: 0px 0px;
 }
 
-img#Indicator{
-		position: absolute;
-		display: inline;
-		margin-top: -6.6em;
-		margin-left: 132px;
-}
 
 /* When the screen is 640px or smaller */
 @media (max-width: 640px){
