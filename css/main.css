@@ -83,12 +83,11 @@ div#Navigation{
     background-image: url("../img/bg.png");
     font-family: 'Open Sans Condensed', Helvetica, sans-serif;
     font-size: 1.8em;
-    height: 500%;
+    height: 102%;
     margin: 0 2em 0 0;
     width: 155px;
     position: fixed;
     box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.1) inset;
-    -webkit-box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.1) inset;
 }
 
 ul{
@@ -186,7 +185,6 @@ img#Indicator{
 				margin: 0;
 				z-index: 1;
 				background: white;
-				-webkit-transition: 0.2s -webkit-transform ease-in-out;
     }
     div#BigFatContainer{
 				padding: 5%;
