@@ -2,209 +2,209 @@
  * First some resetting.
  */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
-    margin:0;
-    padding:0;
+		margin:0;
+		padding:0;
 }
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+		border-collapse:collapse;
+		border-spacing:0;
 }
 fieldset,img {
-    border:0;
+		border:0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
-    font-style:normal;
-    font-weight:normal;
+		font-style:normal;
+		font-weight:normal;
 }
 ol,ul {
-    list-style:none;
+		list-style:none;
 }
 caption,th {
-    text-align:left;
+		text-align:left;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-size:100%;
-    font-weight:normal;
-    color: grey;
-    font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+		font-size:100%;
+		font-weight:normal;
+		color: grey;
+		font-family: 'Open Sans Condensed', Helvetica, sans-serif;
 }
 q:before,q:after {
-    content:'';
+		content:'';
 }
 abbr,acronym {
-    border:0;
+		border:0;
 }
 
 /*
  * Then the actual layout.
  */
 body{
-    overflow-x: hidden;
+		overflow-x: hidden;
 }
 a {
-    color: grey;
-    text-decoration: none;
+		color: grey;
+		text-decoration: none;
 }
 a:hover{
-    text-decoration: underline;
+		text-decoration: underline;
 }
 
 p {
-   font-family: Helvetica, sans-serif;
-   color: #333;
-   line-height: 1.8em;
-   margin: 2em 0;
+		font-family: Helvetica, sans-serif;
+		color: #333;
+		line-height: 1.8em;
+		margin: 2em 0;
 }
 
 h1{
-    font-size: 2.1em;
-    font-weight: bold;
-    padding: 2.9em 0 0 0;
-    margin: 0 0 0.8em 0;
-    clear: left;
+		font-size: 2.1em;
+		font-weight: bold;
+		padding: 2.9em 0 0 0;
+		margin: 0 0 0.8em 0;
+		clear: left;
 }
 h2{
-    font-size: 1.6em;
-    margin: 1em 0 0.5em 0;
+		font-size: 1.6em;
+		margin: 1em 0 0.5em 0;
 }
 h3{
-    font-size: 1.3em;
-    margin: 1em 0 0.5em 0;
+		font-size: 1.3em;
+		margin: 1em 0 0.5em 0;
 }
 h4{
-    font-size: 1.1em;
-    margin: 0.3em 0;
+		font-size: 1.1em;
+		margin: 0.3em 0;
 }
 h5{
-    font-size: 0.9em;
-    margin: 0.3em 0 0 0;
+		font-size: 0.9em;
+		margin: 0.3em 0 0 0;
 }
 div#Navigation{
-    background-image: url("../img/bg.png");
-    font-family: 'Open Sans Condensed', Helvetica, sans-serif;
-    font-size: 1.8em;
-    height: 102%;
-    margin: 0 2em 0 0;
-    width: 155px;
-    position: fixed;
-    box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.1) inset;
+		background-image: url("../img/bg.png");
+		font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+		font-size: 1.8em;
+		height: 102%;
+		margin: 0 2em 0 0;
+		width: 155px;
+		position: fixed;
+		box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.1) inset;
 }
 
 ul{
-    list-style: none;
-    padding: 0.5em 0 0.8em 1.3em;
+		list-style: none;
+		padding: 0.5em 0 0.8em 1.3em;
 }
 ul#MobileHeader{
-    padding: 0;
+		padding: 0;
 }
 .pointer{
-    cursor: pointer;
+		cursor: pointer;
 }
 .ib{
-    display: inline-block;
+		display: inline-block;
 }
 li.ib{
-    padding: 1.5% 2.5%;
+		padding: 1.5% 2.5%;
 }
 li.ib h3{
-    margin: 0;
+		margin: 0;
 
 }
 li.menuButton img{
-    margin: 0 0 -0.23em 0;
+		margin: 0 0 -0.23em 0;
 }
 div{
-    overflow:auto;
+		overflow:auto;
 }
 div.section{
-    width: 100%;
-    overflow: hidden;
+		width: 100%;
+		overflow: hidden;
 }
 div.post, div.site-footer{
-    margin: 0 auto;
-    max-width: 47em;
+		margin: 0 auto;
+		max-width: 47em;
 }
 div#Emptyspace{
-    padding: 25em 0;
+		padding: 25em 0;
 }
 div#BigFatContainer{
-    margin: 0 2.5em 3em 13.5em;
+		margin: 0 2.5em 3em 13.5em;
 }
 ul#MobileHeader{
-    display: none;
+		display: none;
 }
 
 div.projectBox{
-    float: left;
-    max-width: 40%;
-    margin: 0 8% 8% 0;
-    text-align: center;
-    overflow: hidden;
+		float: left;
+		max-width: 40%;
+		margin: 0 8% 8% 0;
+		text-align: center;
+		overflow: hidden;
 }
 div.projectBox img{
-    width: 100%;
+		width: 100%;
 }
 div.projectMarginFixer{
-    width: 108%;
+		width: 108%;
 }
 img{
-    border-radius: 3px;
+		border-radius: 3px;
 }
 img#Logo{
-    padding: 0.8em 0 0 19px;
+		padding: 0.8em 0 0 19px;
 }
 div#SmallJC{
-    display: none;
-    height: 6em;
-    width: 4.0em;
-    margin-bottom: -2.2em;
-    opacity: 0.4;
-    background-image: url('../img/jc.png');
-    background-position: 0px 0px;
+		display: none;
+		height: 6em;
+		width: 4.0em;
+		margin-bottom: -2.2em;
+		opacity: 0.4;
+		background-image: url('../img/jc.png');
+		background-position: 0px 0px;
 }
 
 img#Indicator{
-    position: absolute;
-    display: inline;
-    margin-top: -6.6em;
-    margin-left: 132px;
+		position: absolute;
+		display: inline;
+		margin-top: -6.6em;
+		margin-left: 132px;
 }
 
 /* When the screen is 640px or smaller */
 @media (max-width: 640px){
-    ul#MobileHeader{
+		ul#MobileHeader{
 				display: block;
 				width: 100%;
 				position: fixed;
 				background: grey;
 				background-image: url("../img/bg.png");
 				z-index: 2;
-    }
-    div#BigFatContainer{
+		}
+		div#BigFatContainer{
 				position: relative;
 				margin: 0;
 				z-index: 1;
 				background: white;
-    }
-    div#BigFatContainer{
+		}
+		div#BigFatContainer{
 				padding: 5%;
-    }
-    div#Emptyspace{
+		}
+		div#Emptyspace{
 				padding: 5em 0;
-    }
-    h1{
+		}
+		h1{
 				padding: 1.5em 0 0 0;
-    }
+		}
 }
 /* When the phone is too small or flipped to landscape */
 @media (max-height: 360px){
-    li.ib{
+		li.ib{
 				padding: 0 2%;
-    }
-    img#Logo{
+		}
+		img#Logo{
 				display: none;
-    }
-    div#Navigation ul{
+		}
+		div#Navigation ul{
 				padding-top: 0.9em;
-    }
+		}
 }
