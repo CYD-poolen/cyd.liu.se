@@ -2,42 +2,44 @@
  * First some resetting.
  */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
-		margin:0;
-		padding:0;
+		margin: 0;
+		padding: 0;
 }
 table {
-		border-collapse:collapse;
-		border-spacing:0;
+		border-collapse: collapse;
+		border-spacing: 0;
 }
 fieldset, img {
-		border:0;
+		border: 0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
-		font-style:normal;
-		font-weight:normal;
+		font-style: normal;
+		font-weight: normal;
 }
 ol, ul, nav {
-		list-style:none;
+		list-style: none;
 }
 caption, th {
-		text-align:left;
+		text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
-		font-size:100%;
-		font-weight:normal;
+		font-size: 100%;
+		font-weight: normal;
 		color: grey;
 		font-family: 'Open Sans Condensed', Helvetica, sans-serif;
 }
 q:before, q:after {
-		content:'';
+		content: '';
 }
 abbr, acronym {
-		border:0;
+		border: 0;
 }
 
 /*
  * Then the actual layout.
  */
+
+/* Font settings */
 body{
 		overflow-x: hidden;
 }
@@ -49,9 +51,11 @@ a:hover{
 		text-decoration: underline;
 }
 
-p, td{
+p, td, th{
 		font-family: Helvetica, sans-serif;
 		color: #000;
+}
+p{
 		line-height: 1.8em;
 		margin: 2em 0;
 }
@@ -79,6 +83,8 @@ h5{
 		font-size: 0.9em;
 		margin: 0.3em 0 0 0;
 }
+
+
 div#Navigation{
 		background-image: url("../img/bg.png");
 		font-family: 'Open Sans Condensed', Helvetica, sans-serif;
@@ -93,6 +99,12 @@ div#Navigation{
 table{
 		width: 100%;
 }
+td{
+		padding: 0.3em;
+}
+th{
+		padding: 0.3em 0.3em 0.8em 0.3em;
+}
 ul{
 		padding: 0.5em 0 0.8em 1.3em;
 }
@@ -101,15 +113,13 @@ nav{
 }
 ul#MobileHeader{
 		padding: 0;
+		padding: 1.5% 2.5%;
 }
 .pointer{
 		cursor: pointer;
 }
 .ib{
 		display: inline-block;
-}
-li.ib{
-		padding: 1.5% 2.5%;
 }
 li.ib h3{
 		margin: 0;
@@ -145,8 +155,8 @@ img#Logo{
 		padding: 0.8em 0 0 19px;
 }
 img#Status{
-		width: 80%;
-		height: 80%;
+		width: 100%;
+		height: 100%;
 }
 img#Indicator{
 		position: absolute;
@@ -155,14 +165,18 @@ img#Indicator{
 		margin-left: 132px;
 }
 
-div#SmallJC{
-		display: none;
-		height: 6em;
-		width: 4.0em;
-		margin-bottom: -2.2em;
-		opacity: 0.4;
+li#SmallLogo{
+		display: inline-block;
+		position: absolute;
+		z-index: -1;
+		right: 4%;
+		bottom: 0;
+		height: 90%;
+		width: 4em;
 		background-image: url('../img/cyd.png');
 		background-position: 0px 0px;
+		background-size: 2.4em;
+		background-repeat: no-repeat;
 }
 
 
