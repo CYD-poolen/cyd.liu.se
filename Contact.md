@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-System administrators are available for support during semesters every week from monday through thursday:
+The system administrators are available for support during semesters every week from monday through thursday:
 
 <table>
 	<tr>
@@ -21,9 +21,9 @@ System administrators are available for support during semesters every week from
 	</tr>
 </table>
 
-During study breaks and examination periods there's no support available - but you can always reach the sysadmins at [admin@cyd.liu.se](admin@cyd.liu.se). However we can't guarantee a quick response during these periods.
+During study breaks and examination periods the support hours aren't manned - but you can always reach the sysadmins at [admin@cyd.liu.se](admin@cyd.liu.se). However we can't guarantee a quick response during these periods.
 
-If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail](admin@cyd.liu.se) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
+If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail](admin@cyd.liu.se), [IRC](irc://#cydadmin@irc.quakenet.org) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
 
 ## Administrators
 
