@@ -18,16 +18,16 @@ Nu befinner sig en kompilerad version av hemsidan i _site-mappen. Följande ngin
 
 ```nginx
 server{
-	server_name  cyd.liu.se
+	server_name  cyd.liu.se;
 	root         /srv/cyd.liu.se/;
 	access_log   /var/log/nginx/cyd.liu.se/access.log;
-n	error_log    /var/log/nginx/cyd.liu.se/error.log;
+	error_log    /var/log/nginx/cyd.liu.se/error.log;
 }
 ```
 
-Utvekling
+Utveckling
 ---------
-Utifall du inte vill köra en hel nginx-installation, även om jag personligen rekommenderar det då jekyll serve tar magnituder mer RAM, på din utveklingsmaskin kan man leverera hemsidan med följande ruby-server:
+Utifall du inte vill köra en hel nginx-installation, även om jag personligen rekommenderar det då Jekyll serve tar magnituder mer RAM, på din utvecklingsmaskin kan man leverera hemsidan med följande ruby-server:
 
 ```bash
 $ jekyll serve
@@ -39,7 +39,7 @@ Filstruktur
 Filstrukturen är som följer:
 
 ```
-./            - Alla filer i roten på jekyllmappen som slutar med .md och börjar
+./            - Alla filer i roten på Jekyllmappen som slutar med .md och börjar
  │              med ett YAML frontmatter kommer att hanteras av Jekyll och göras
  │              till sidor på hemsidan.
  ├─ fonts     - Innehåller alla fonter som används på sidan, kopieras rakt av.
