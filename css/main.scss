@@ -1,3 +1,7 @@
+---
+
+---
+
 /*
  * First some resetting.
  */
@@ -40,6 +44,13 @@ abbr, acronym {
  */
 
 /* Font settings */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url('{{ "/fonts/OpenSansCondensed.woff" | prepend: site.baseurl }}' ) format('woff');
+}
+
 body{
 		overflow-x: hidden;
 }
