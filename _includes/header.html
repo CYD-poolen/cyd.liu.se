@@ -12,16 +12,6 @@
       {% endif %}
       {% endif %}
       {% endfor %}
-
-			{% for hash in page.navigation %}
-			{% for pair in hash %}
-      <h3>
-        <a name="{{ pair[1] }}" class="anchor"
-           href="#{{ pair[1] }}">
-        </a>{{ pair[0] }}
-      </h3>
-			{% endfor %}
-			{% endfor %}
     </nav>
   </div>
 
