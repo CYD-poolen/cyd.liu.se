@@ -36,7 +36,7 @@ $(document).ready(function(){
 	function openMenuOnMobile(time){
 		if(time == undefined)
 			time = 200;
-		//	bigFat.css('-webkit-transform', 'translateX(155px)');
+
 		bigFat.animate({left: '155px'}, time);
 		mobileHeader.animate({left: '155px'}, time);
 	}
@@ -45,7 +45,7 @@ $(document).ready(function(){
 		if(bigFat.css('left') == '155px'){
 			if(time == undefined)
 				time = 200;
-			//	bigFat.css('-webkit-transform', 'translateX(0px)');
+
 			bigFat.animate({left: '0px'}, time);
 			mobileHeader.animate({left: '0px'}, time);
 		}
@@ -53,9 +53,17 @@ $(document).ready(function(){
 });
 
 function getIndicatorPosition(){
+	var offset = 0;
 	if(location.hash === ""){
 		var page = location.pathname.split('/');
 		page = page[page.length - 2];
-		return $('#' + page).position().top - 8;
+		if (page === "_site")
+			offset = $('#Logo').position().top + 100;
+		else
+			offset = $('#' + page).position().top - 8;
 	}
+
+	if(window.innerHeight < 420)
+		offset -= 156;
+	return offset;
 }

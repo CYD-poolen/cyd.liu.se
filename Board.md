@@ -6,7 +6,6 @@ permalink: /board/
 
 The board of CYD-poolen consists of one representative from each section, [the sysadmins]({{ site.baseurl }}/contact), one representative from [Department of Electrical Engineering](http://www.isy.liu.se/) (ISY) and the administrative programme responsibility representative from [TFK](http://www.lith.liu.se/presentation/Fakultetskansliet?l=en).
 
-* <a href="http://www.c.lintek.liu.se">C-sektionen</a>
 * <a href="http://www.y.lintek.liu.se">Y-sektionen</a>
 * <a href="http://www.d.lintek.liu.se">D-sektionen</a>
 * <a href="http://www.ling.lintek.liu.se">Ling-sektionen</a>

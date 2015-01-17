@@ -4,23 +4,15 @@
 		<a class="site-title" href="{{ site.baseurl }}/">
 			<img id="Logo" src="{{ site.baseurl }}/img/cyd.png" alt="{{ site.title }}"/>
 		</a>
-    <ul>
+    <nav>
       {% for page in site.pages %}
       {% if page.title %}
+			{% if page.menuInclude != false %}
       <li><a class="page-link" id="{{page.url | replace:'/',''}}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
       {% endif %}
+      {% endif %}
       {% endfor %}
-			{{ page.navigation }}
-			{% for hash in page.navigation %}
-			{% for pair in hash %}
-      <h3>
-        <a name="{{ pair[1] }}" class="anchor"
-           href="#{{ pair[1] }}">
-        </a>{{ pair[0] }}
-      </h3>
-			{% endfor %}
-			{% endfor %}
-    </ul>
+    </nav>
   </div>
 
 	<ul id="MobileHeader">
@@ -28,9 +20,6 @@
 			<img src="{{ site.baseurl }}/img/menu.png" alt="Menu icon"/>
 			<h3 class="ib"> Menu </h3>
 		</li>
-		<li class="ib" alt="Company Logo">
-			<div class="ib" id="SmallJC"></div>
-			<div class="ib" id="SmallDesign"></div>
-		</li>
+		<li id="SmallLogo" alt="Company Logo"></li>
 	</ul>
 </header>

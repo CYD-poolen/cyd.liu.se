@@ -1,3 +1,10 @@
+---
+layout: page
+title: Hiring
+permalink: /hiring/
+published: false
+---
+
 # CYD-poolen wants YOU!
 
 `/LDAP|NIS|DNS|Apache|BSD|Debian|SSH|TCP\/IP|KRB|[ST]?FTP|lxc|KVM|libvirt|ZFS|Solaris|/`
@@ -21,6 +28,6 @@ Har du frågor eller funderingar så tveka inte att e-posta eller komma och prat
 
 Hälsningar
 
-Christian, Patrik och Pierre
+Christian, Christian 2 och jultomten.
 
 Systemadministratörer, CYD-poolen
