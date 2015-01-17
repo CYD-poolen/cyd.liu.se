@@ -120,7 +120,7 @@ div.section{
 		width: 100%;
 		overflow: hidden;
 }
-div.post, div.site-footer{
+div.post, footer.site-footer{
 		margin: 0 auto;
 		max-width: 47em;
 }
