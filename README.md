@@ -5,7 +5,7 @@ Installation
 ------------
 
 ``` bash
-$ git clone https://github.com/CYD-poolen/cyd.liu.se
+$ git clone git@github.com:CYD-poolen/cyd.liu.se
 
 $ gem install jekyll
 
