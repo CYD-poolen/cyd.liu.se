@@ -60,7 +60,7 @@ function getIndicatorPosition(){
 		if (page === "_site")
 			offset = $('#Logo').position().top + 100;
 		else
-			offset = $('#' + page).position().top - 8;
+			offset = $('#' + page).position().top - 9;
 	}
 
 	if(window.innerHeight < 420)
