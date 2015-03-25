@@ -57,7 +57,8 @@ function getIndicatorPosition(){
 	if(location.hash === ""){
 		var page = location.pathname.split('/');
 		page = page[page.length - 2];
-		if (page === "_site")
+		// If we're at the index page.
+		if (page === "_site" || page === "")
 			offset = $('#Logo').position().top + 100;
 		else
 			offset = $('#' + page).position().top - 9;
