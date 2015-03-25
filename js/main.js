@@ -57,6 +57,9 @@ function getIndicatorPosition(){
 	if(location.hash === ""){
 		var page = location.pathname.split('/');
 		page = page[page.length - 2];
+		// If on a dated blog entry
+		if (!isNaN(page))
+			page = "news";
 		// If we're at the index page.
 		if (page === "_site" || page === "")
 			offset = $('#Logo').position().top + 100;
