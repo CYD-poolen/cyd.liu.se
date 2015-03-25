@@ -104,7 +104,7 @@ h5{
 h5.post-meta{
 	margin: 0 0 0.3em 0;
 }
-h2.post-title,h3.post-title{
+h2.post-title, h3.post-title{
 	margin: 0 0 -0.3em 0;
 }
 
@@ -136,7 +136,11 @@ ul.post-list{
 	padding: 0;
 }
 nav{
-	padding: 0.4em 0 0 1em;
+	padding: 0 0 0 1em;
+}
+span#LogoReplacement{
+	padding: 0.8em 0 0 1em;
+	display: none;
 }
 ul#MobileHeader{
 	padding: 0;
@@ -197,7 +201,7 @@ img{
 	border-radius: 3px;
 }
 img#Logo{
-	padding: 0.8em 0 0 19px;
+	padding: 0.8em 0 0.4em 19px;
 }
 img#Status{
 	width: 100%;
@@ -247,12 +251,15 @@ li#SmallLogo{
 	}
 }
 /* When the phone is too small or flipped to landscape */
-@media (max-height: 420px){
+@media (max-height: 440px){
 	li.ib{
 		padding: 0 2%;
 	}
 	img#Logo{
 		display: none;
+	}
+	span#LogoReplacement{
+		display: block;
 	}
 	div#Navigation ul{
 		padding-top: 0.9em;

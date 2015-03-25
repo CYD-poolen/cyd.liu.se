@@ -1,19 +1,20 @@
 <header class="site-header">
-  <div id="Navigation">
-    <img id="Indicator" src="{{ site.baseurl }}/img/indicator.png" alt="" />
+	<div id="Navigation">
+		<img id="Indicator" src="{{ site.baseurl }}/img/indicator.png" alt="" />
 		<a class="site-title" href="{{ site.baseurl }}/">
 			<img id="Logo" src="{{ site.baseurl }}/img/cyd.png" alt="{{ site.title }}"/>
+			<span id="LogoReplacement"> Home </span>
 		</a>
-    <nav>
-      {% for page in site.pages %}
-      {% if page.title %}
+		<nav>
+			{% for page in site.pages %}
+			{% if page.title %}
 			{% if page.menuInclude != false %}
-      <li><a class="page-link" id="{{page.url | replace:'/',''}}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-    </nav>
-  </div>
+			<a class="page-link" id="{{page.url | replace:'/',''}}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+		</nav>
+	</div>
 
 	<ul id="MobileHeader">
 		<li class="ib pointer menuButton">
