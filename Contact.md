@@ -21,19 +21,19 @@ The system administrators are available for support during semesters every week 
 	</tr>
 </table>
 
-During study breaks and examination periods the support hours aren't manned - but you can always reach the sysadmins at [admin@cyd.liu.se](admin@cyd.liu.se). However we can't guarantee a quick response during these periods.
+During study breaks and examination periods the support hours aren't manned - but you can always reach the sysadmins at [{{ site.email }}]({{ site.email }}). However we can't guarantee a quick response during these periods.
 
-If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail](admin@cyd.liu.se), [IRC](irc://#cydadmin@irc.quakenet.org) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
+If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail]({{ site.email }}), [IRC](irc://#cydadmin@irc.quakenet.org) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
 
 ## Administrators
 
 The system administrators currently working in CYD-poolen are Hans-Filip Elo, Victor Näslund and Christian Luckey.
 
 ## Mail
-The best way to contact the system administrators is through mail. The adress is [admin@cyd.liu.se](admin@cyd.liu.se).
+The best way to contact the system administrators is through mail. The adress is [{{ site.email }}]({{ site.email }}).
 
 ## IRC
-You can reach CYD-admins through IRC. We're almost always answering on #cydadmin@QuakeNet (se.quakenet.org).
+You can reach CYD-admins through IRC. We're almost always answering on [#cydadmin@QuakeNet](irc://se.quakenet.org/#cydadmin), you can take a peek through [quakenets web irc](http://webchat.quakenet.org/?channels=cydadmin).
 
 ## Adress
 If you ever wish to send us flowers, you can do so to the following adress:
