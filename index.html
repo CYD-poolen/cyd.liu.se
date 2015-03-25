@@ -15,7 +15,6 @@ menuInclude: false
 		<img src="//www.cyd.liu.se/status.png" id="Status" alt="CYD-poolen status overview" />
 	</div>
 
-
 	<ul class="post-list">
 		{% for post in site.posts %}
 		<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -24,8 +23,6 @@ menuInclude: false
 		</a></li>
 		{% endfor %}
 	</ul>
-
-	<div id="Emptyspace"></div>
 
 	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

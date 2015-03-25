@@ -68,7 +68,7 @@ p, td, th{
 }
 p{
 	line-height: 1.8em;
-	margin: 2em 0;
+	margin: 0 0 2em 0;
 }
 
 h1{
@@ -81,6 +81,9 @@ h1{
 h2{
 	font-size: 1.6em;
 	margin: 1em 0 0.5em 0;
+}
+h2.footer-heading{
+	text-align: center;
 }
 h3{
 	font-size: 1.3em;
@@ -111,6 +114,7 @@ div#Navigation{
 
 table{
 	width: 100%;
+	margin: 2em 0;
 }
 td{
 	padding: 0.3em;
@@ -147,12 +151,21 @@ div.section{
 	width: 100%;
 	overflow: hidden;
 }
-div.post, footer.site-footer{
+div.post, footer{
 	margin: 0 auto;
 	max-width: 47em;
 }
+div.flex{
+    display: flex;
+    flex-flow: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.flex *{
+    padding: 0 1em;
+}
 div#Emptyspace{
-	padding: 25em 0;
+	padding: 10em 0;
 }
 div#BigFatContainer{
 	margin: 0 2.5em 3em 13.5em;
