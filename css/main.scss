@@ -79,8 +79,7 @@ p, pre{
 h1{
 	font-size: 2.1em;
 	font-weight: bold;
-	padding: 2.9em 0 0 0;
-	margin: 0 0 0.8em 0;
+	margin: 2.9em 0 0.8em 0;
 	clear: left;
 }
 h2{
@@ -90,15 +89,9 @@ h2{
 h2.footer-heading{
 	text-align: center;
 }
-h2.post-title{
-	margin: 0 0 -0.4em 0;
-}
 h3{
 	font-size: 1.3em;
 	margin: 1em 0 0.5em 0;
-}
-h3.post-title{
-	margin: 0 0 -0.4em 0;
 }
 h4{
 	font-size: 1.1em;
@@ -107,6 +100,12 @@ h4{
 h5{
 	font-size: 0.9em;
 	margin: 0.3em 0 0 0;
+}
+h5.post-meta{
+	margin: 0 0 0.3em 0;
+}
+h2.post-title,h3.post-title{
+	margin: 0 0 -0.3em 0;
 }
 
 div#Navigation{
@@ -170,6 +169,7 @@ div.post{
 	flex: 1 0 auto;
 }
 footer{
+	margin: 1em 0 0 0;
 	flex: 0 0 auto;
 }
 div.footerLinks{
@@ -179,7 +179,7 @@ div.footerLinks{
 	justify-content: center;
 }
 div.footerLinks *{
-	padding: 0 1em;
+	margin: 0 1em 0.7em 1em;
 }
 
 
@@ -240,12 +240,10 @@ li#SmallLogo{
 		margin: 0;
 		z-index: 1;
 		background: white;
-	}
-	div#BigFatContainer{
-		padding: 5%;
+		padding: 0 5%;
 	}
 	h1{
-		padding: 1.5em 0 0 0;
+		margin: 2em 0 0.8em 0;
 	}
 }
 /* When the phone is too small or flipped to landscape */
