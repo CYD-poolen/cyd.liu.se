@@ -38,7 +38,14 @@ On windows you will have to download a program that support the scp protocol, we
 
 ### OSX
 
-It should simply work, eh?
+On OS X you will need sshfs installed. The easiest way to install sshfs is to install [Homebrew](http://http://brew.sh/) first. Then do: 
+
+	$ brew install sshfs
+
+After that you can do: 
+
+	$ mkdir CYD-remote
+	$ sshfs <liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id> CYD-remote
 
 
 ## Fingerprints
