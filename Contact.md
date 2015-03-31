@@ -30,7 +30,7 @@ If you have question regarding CYD-poolen - please come and talk to us during on
 The system administrators currently working in CYD-poolen are Hans-Filip Elo, Victor Näslund and Christian Luckey.
 
 ## Mail
-The best way to contact the system administrators is through mail. The adress is [{{ site.email }}]({{ site.email }}).
+The best way to contact the system administrators is through mail. The address is [{{ site.email }}]({{ site.email }}).
 
 ## IRC
 You can reach CYD-admins through IRC. We're almost always answering on [#cydadmin@QuakeNet](irc://se.quakenet.org/#cydadmin), you can take a peek through [quakenets web irc](http://webchat.quakenet.org/?channels=cydadmin).
