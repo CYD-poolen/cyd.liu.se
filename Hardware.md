@@ -157,7 +157,7 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
   </tr>
   <tr>
     <td>Tracey</td>
-    <td>HP ProCurve Switch 2424M</td>
+    <td>HP ProCurve 2424M</td>
     <td>Management</td>
   </tr>
 </table>
