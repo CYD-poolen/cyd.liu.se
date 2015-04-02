@@ -75,6 +75,9 @@ p, pre{
 	line-height: 1.8em;
 	margin: 0 0 2em 0;
 }
+pre{
+	overflow-x: scroll;
+}
 
 h1{
 	font-size: 2.1em;
@@ -253,6 +256,9 @@ li#SmallLogo{
 		z-index: 1;
 		background: white;
 		padding: 0 5%;
+	}
+	div.post{
+		width: 100%;
 	}
 	h1{
 		margin: 2em 0 0.8em 0;
