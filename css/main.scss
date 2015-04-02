@@ -205,6 +205,11 @@ img{
 }
 img#Logo{
 	padding: 0.8em 0 0.4em 19px;
+	/* ATTENTION STRANGER:
+	 * The following line is logo specific, change it if you change logo.
+	 * It fixes a bug with the arrow not being placed correctly on first load.
+	 */
+	height: 156px;
 }
 img#Status{
 	width: 100%;
