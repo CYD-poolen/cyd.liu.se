@@ -4,14 +4,14 @@ title: Board
 permalink: /board/
 ---
 
-The board of CYD-poolen consists of one representative from each section, [the sysadmins]({{ site.baseurl }}/contact), one representative from [Department of Electrical Engineering](http://www.isy.liu.se/) (ISY) and the administrative programme responsibility representative from [TFK](http://www.lith.liu.se/presentation/Fakultetskansliet?l=en).
+The board of CYD-poolen consists of one representative from each section, [the sysadmins]({{ site.baseurl }}/contact), one representative from [Department of Electrical Engineering](http://www.isy.liu.se/) (ISY), the education headman from the [data and media board](http://www.lith.liu.se/presentation/namnder/dm?l=sv) (DM) and the education headman from the [electronics, physics and mathematics board](http://www.lith.liu.se/presentation/namnder/ef?l=sv) (EF).
 
 * [Y-sektionen](http://www.y.lintek.liu.se)
 * [D-sektionen](http://www.d.lintek.liu.se)
 * [Ling-sektionen](http://www.ling.lintek.liu.se)
 * [Kristina Arkad](mailto:kristina@isy.liu.se) (ISY)
-* [Tea Nygren](mailto:tea.nygren@liu.se) (TFK)
-* [Torun Berlind](mailto:torun.berglind@liu.se) (TFK)
+* [Tea Nygren](mailto:tea.nygren@liu.se) (DM)
+* [Torun Berlind](mailto:torun.berglind@liu.se) (EF)
 
 ## Board minutes
 
