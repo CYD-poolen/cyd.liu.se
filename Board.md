@@ -11,7 +11,7 @@ The board of CYD-poolen consists of one representative from each section, [the s
 * [Ling-sektionen](http://www.ling.lintek.liu.se)
 * [Kristina Arkad](mailto:kristina@isy.liu.se) (ISY)
 * [Tea Nygren](mailto:tea.nygren@liu.se) (DM)
-* [Torun Berlind](mailto:torun.berglind@liu.se) (EF)
+* [Torun Berlind](mailto:torun.berlind@liu.se) (EF)
 
 ## Board minutes
 
