@@ -21,9 +21,9 @@ The system administrators are available for support during semesters every week 
 	</tr>
 </table>
 
-During study breaks and examination periods the support hours aren't manned - but you can always reach the sysadmins at [{{ site.email }}]({{ site.email }}). However we can't guarantee a quick response during these periods.
+During study breaks and examination periods the support hours aren't manned - but you can always reach the sysadmins at [{{ site.email }}](mailto:{{ site.email }}). However we can't guarantee a quick response during these periods.
 
-If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail]({{ site.email }}), [IRC](irc://#cydadmin@irc.quakenet.org) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
+If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail](mailto:{{ site.email }}), [IRC](irc://#cydadmin@irc.quakenet.org) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
 
 ## Administrators
 
