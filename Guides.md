@@ -18,7 +18,7 @@ If you are using Windows you will have to download a ssh client such as [KiTTY](
 ## Access your files from home
 
 ### Linux and BSD
-If you have a file manager such as Nautilus or Thunar installed (which you normally do), simply press Ctrl-L and enter:
+If you have a file manager such as Nautilus or Thunar installed (which you normally do), open it and simply press Ctrl-L and enter:
 
     ssh://<liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id>
 
@@ -33,16 +33,14 @@ You can also mount the remote folder using sshfs:
 
 On windows you will have to download a program that support the scp protocol, we recommend [WinSCP](http://winscp.net/eng/index.php)
 
-![winscp](http://cyd.liu.se/files/winscp.jpg)
-
 
 ### OSX
 
-On OS X you will need sshfs installed. The easiest way to install sshfs is to install [Homebrew](http://http://brew.sh/) first. Then do: 
+On OS X you will need sshfs installed. The easiest way to install sshfs is to install [Homebrew](http://http://brew.sh/) first. Then do:
 
 	$ brew install sshfs
 
-After that you can do: 
+After that you can do:
 
 	$ mkdir CYD-remote
 	$ sshfs <liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id> CYD-remote
