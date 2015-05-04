@@ -96,7 +96,7 @@ h3{
 	font-size: 1.3em;
 	margin: 1em 0 0.5em 0;
 }
-h4{
+h4, th{
 	font-size: 1.1em;
 	margin: 0.3em 0;
 }
@@ -130,7 +130,7 @@ td{
 	padding: 0.3em;
 }
 th{
-	padding: 0.3em 0.3em 0.8em 0.3em;
+	padding: 0.3em 0.3em 0.5em 0.3em;
 }
 ul{
 	padding: 0.5em 0 0.8em 1.3em;
@@ -301,7 +301,7 @@ li#SmallLogo{
     background-color: rgba(0, 0, 0, .5);
 }
 
-.frame::-webkit-scrollbar-track { 
-    background-color: #fff; 
-    border-radius: 8px; 
-} 
+.frame::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 8px;
+}
