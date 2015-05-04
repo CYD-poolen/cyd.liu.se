@@ -26,7 +26,7 @@ ol, ul, nav {
 caption, th {
 	text-align: left;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th {
 	font-size: 100%;
 	font-weight: normal;
 	color: grey;
@@ -67,7 +67,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-p, td, th{
+p, td{
 	font-family: Helvetica, sans-serif;
 	color: #000;
 }
@@ -126,11 +126,8 @@ table{
 	width: 100%;
 	margin: 2em 0;
 }
-td{
+td, th {
 	padding: 0.3em;
-}
-th{
-	padding: 0.3em 0.3em 0.5em 0.3em;
 }
 ul{
 	padding: 0.5em 0 0.8em 1.3em;

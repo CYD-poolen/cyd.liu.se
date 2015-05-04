@@ -47,7 +47,7 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
 
 ## Servers
 
-<table class="table table-striped table-bordered table-condensed">
+<table>
   <thead>
     <tr>
       <th>Name</th>
@@ -60,15 +60,6 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Kaylee</td>
-      <td>HP ProLiant DL185 G5</td>
-      <td>2×Opteron 2352 2.1 GHz</td>
-      <td>24GB</td>
-      <td>28TB</td>
-      <td>Solaris 10</td>
-      <td>File server</td>
-    </tr>
     <tr>
       <td>Serenity</td>
       <td>Dell PowerEdge R310</td>
@@ -129,11 +120,11 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
 ## Switches
 
 
-<table class="table table-striped table-bordered table-condensed">
+<table>
   <thead>
-    <th>Name</strong></td>
-    <th>Model</strong></td>
-    <th>Function</strong></td>
+    <th>Name</td>
+    <th>Model</td>
+    <th>Serving</td>
   </tr>
   <tr>
     <td>Nandi</td>
