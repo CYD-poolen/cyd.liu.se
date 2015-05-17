@@ -18,7 +18,7 @@ Tjänsten är på 25%, vilket motsvarar 10 timmar per vecka. Det är en rolig oc
 
 * Svensktalande
 
-Så vad pular vi med här då? Bland annat det som du redan har sett - Windowsmaskiner inne i datorsalen men även några Linux-burkar på serversidan. Förutom att serva hemkataloger via NFS så körs även några av sektionernas och festeriernas hemsidor här. Vi har även ett gäng switchar att hålla ereda på. Generell linux kunskap är meriterande.
+Så vad pular vi med här då? Bland annat det som du redan har sett - Windowsmaskiner inne i datorsalen men även några Linux-burkar på serversidan. Förutom att serva hemkataloger via NFS så körs även några av sektionernas och festeriernas hemsidor här. Vi har även ett gäng switchar att hålla reda på. Generell linux kunskap är starkt xmeriterande.
 Det viktiga är att du är ambitiös, initiativrik och självgående - inte att du är en admin-expert.
 
 Har du frågor eller funderingar så tveka inte att e-posta eller komma och prata med oss när vi har support!
