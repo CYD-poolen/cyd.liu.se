@@ -55,23 +55,23 @@ html{
 	height: 100%;
 }
 
-body{
+body {
 	height: 100%;
 	overflow-x: hidden;
 }
-a{
+a {
 	color: grey;
 	text-decoration: none;
 }
-a:hover{
+a:hover {
 	text-decoration: underline;
 }
 
-p, td{
+p, td {
 	font-family: Helvetica, sans-serif;
 	color: #000;
 }
-p, pre{
+p, pre, table {
 	line-height: 1.8em;
 	margin: 0 0 2em 0;
 }
