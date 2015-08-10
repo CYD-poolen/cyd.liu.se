@@ -6,7 +6,7 @@ Vi söker en systemadministratör till CYD-poolen. Tjänsten är på 25%, vilket
 
 Grundläggande krav:
 
-* Ej förstaårsstudent men gärna andra eller tredje året.
+* Ej förstaårsstudent - men gärna andra eller tredje året.
 * Svensktalande då support måste kunna ges på svenska.
 
 I CYD arbetar vi i stor utsträckning med automation. Vår lilla abretsstyrka och stora mängd användare ställer höga krav på en självgående miljö. Vi arbetar hårt med att skapa en strömlinjeformad miljö som tillåter laborering. 
