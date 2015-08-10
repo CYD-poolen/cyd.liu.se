@@ -6,10 +6,10 @@ Vi söker en systemadministratör till CYD-poolen. Tjänsten är på 25%, vilket
 
 Grundläggande krav:
 
-* Ej förstaårsstudent men gärna andra eller tredje året
-* Svensktalande då support måste kunna ges på svenska
+* Ej förstaårsstudent men gärna andra eller tredje året.
+* Svensktalande då support måste kunna ges på svenska.
 
-I CYD arbetar vi i stor utsträckning med automation. Vår lilla abretsstyrka och stora mängd användare ställer höga krav på en självgående miljö. Vi arbetar hårt med att skapa en strömlinjeformad och laborerbar miljö med få SPOFs. 
+I CYD arbetar vi i stor utsträckning med automation. Vår lilla abretsstyrka och stora mängd användare ställer höga krav på en självgående miljö. Vi arbetar hårt med att skapa en strömlinjeformad miljö som tillåter laborering. 
 
 Mer konkret levererar vi sektioners och andra studentföreningars hemsidor (D-sektionen.se, EliTH Racings wiki, Lingsektionen.se m fl), med totalt ca 113 000 sidträffar i månaden. Vi erbjuder gemensamma filytor för en mängd studentorganisationer och möjliggör för studenterna att arbeta och nå sina filer såväl vid klienterna i CYD som hemifrån. CYDs ca 40 klienter har ungefär 1500 unika användare varje månad!
 
