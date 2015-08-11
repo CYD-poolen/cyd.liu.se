@@ -20,7 +20,7 @@ address,caption,cite,code,dfn,em,strong,th,var {
 	font-style: normal;
 	font-weight: normal;
 }
-ol, ul, nav {
+ol, nav {
 	list-style: none;
 }
 caption, th {
@@ -67,7 +67,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-p, td {
+p, td, ul {
 	font-family: Helvetica, sans-serif;
 	color: #000;
 }
@@ -129,7 +129,7 @@ td, th {
 	padding: 0.3em;
 }
 ul{
-	padding: 0.5em 0 0.8em 1.3em;
+	margin: -1em 0 2em 0em;
 }
 ul.post-list{
 	padding: 0;
@@ -153,6 +153,9 @@ ul#MobileHeader{
 }
 .ib{
 	display: inline-block;
+}
+li{
+	margin: 1em;
 }
 li.ib h3{
 	margin: 0;
