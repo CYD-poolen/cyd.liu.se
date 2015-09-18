@@ -68,3 +68,9 @@ Fingerprints for org.cyd.liu.se (only for organizations with file shares):
     40:88:0b:be:5b:53:a6:b5:00:15:2a:3e:c4:d6:f5:39 (DSA)
     20:71:0d:84:4d:dd:f7:e4:f1:63:46:36:77:be:5a:02 (RSA)
     cf:08:0b:82:4b:b5:60:0e:a3:4a:c8:05:82:d1:81:3e (ECDSA)
+
+Fingerprints for raket.cyd.liu.se (only for organizations with launch codes):
+
+    7e:de:1a:95:99:4f:e6:b9:c7:80:ea:e4:63:99:b8:1b  (DSA)
+    9d:14:88:f6:0f:a2:57:20:f7:83:2f:2e:b2:a0:32:ac  (RSA)
+	df:e8:3c:c4:b7:62:af:b8:5d:ae:60:2d:60:59:c3:8b  (ECDSA)
