@@ -11,7 +11,7 @@ $ gem install jekyll
 
 $ cd cyd.liu.se
 
-$ jekyll build --watch
+$ jekyll --watch
 ```
 
 Nu befinner sig en kompilerad version av hemsidan i _site-mappen. Följande nginx-conf levererar hemsidan:
