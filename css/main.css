@@ -1,0 +1,305 @@
+---
+
+---
+
+/*
+ * First some resetting.
+ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul, nav {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6, th {
+	font-size: 100%;
+	font-weight: normal;
+	color: grey;
+	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+
+/*
+ * Then the actual layout.
+ */
+
+/* Font settings */
+@font-face {
+	font-family: 'Open Sans Condensed';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url('{{ "/fonts/OpenSansCondensed.woff" | prepend: site.baseurl }}' ) format('woff');
+}
+
+html{
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	overflow-x: hidden;
+}
+a {
+	color: grey;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+p, td, ul {
+	font-family: Helvetica, sans-serif;
+	color: #000;
+}
+p, pre, table {
+	line-height: 1.8em;
+	margin: 0 0 2em 0;
+}
+pre{
+	overflow-x: auto;
+}
+
+h1{
+	font-size: 2.1em;
+	font-weight: bold;
+	margin: 2.9em 0 0.8em 0;
+	clear: left;
+}
+h2{
+	font-size: 1.6em;
+	margin: 1em 0 0.5em 0;
+}
+h2.footer-heading{
+	text-align: center;
+}
+h3{
+	font-size: 1.3em;
+	margin: 1em 0 0.5em 0;
+}
+h4, th{
+	font-size: 1.1em;
+	margin: 0.3em 0;
+}
+h5{
+	font-size: 0.9em;
+	margin: 0.3em 0 0 0;
+}
+h5.post-meta{
+	margin: 0 0 0.3em 0;
+}
+h2.post-title, h3.post-title{
+	margin: 0 0 -0.2em 0;
+}
+
+div#Navigation{
+	background-image: url("../img/bg.png");
+	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+	font-size: 1.8em;
+	height: 102%;
+	margin: 0 2em 0 0;
+	width: 155px;
+	position: fixed;
+	box-shadow: -5px -5px 5px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+table{
+	width: 100%;
+}
+td, th {
+	padding: 0.3em;
+}
+ul{
+	margin: -1em 0 2em 0em;
+}
+ul.post-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav{
+	padding: 0 0 0 1em;
+}
+nav a{
+	display: block;
+}
+span#LogoReplacement{
+	padding: 0.8em 0 0 1em;
+	display: none;
+}
+ul#MobileHeader{
+	padding: 0;
+	padding: 1.5% 2.5%;
+}
+.pointer{
+	cursor: pointer;
+}
+.ib{
+	display: inline-block;
+}
+li.ib h3{
+	margin: 0;
+}
+li.menuButton img{
+	margin: 0 0.5em -0.23em 0;
+}
+div{
+	overflow:auto;
+}
+div.section{
+	width: 100%;
+	overflow: hidden;
+}
+div.post, footer{
+	margin: 0 auto;
+	max-width: 47em;
+	width: 100%;
+}
+div.post{
+	flex: 1 0 auto;
+}
+footer{
+	flex: 0 0 auto;
+	padding: 1.5em 0 0.5em 0;
+}
+div.footerLinks{
+	display: flex;
+	flex-flow: baseline;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+div.footerLinks *{
+	margin: 0 1em 0.7em 1em;
+}
+
+
+div#BigFatContainer{
+	display: flex;
+	flex-flow: column;
+	min-height: 100%;
+	margin: 0 2.5em 0 13.5em;
+}
+ul#MobileHeader{
+	display: none;
+}
+
+img{
+	border-radius: 3px;
+}
+img#Logo{
+	padding: 0.8em 0 0.4em 19px;
+	/* ATTENTION STRANGER:
+	 * The following line is logo specific, change it if you change logo.
+	 * It fixes a bug with the arrow not being placed correctly on first load.
+	 */
+	height: 156px;
+}
+img#Status{
+	width: 100%;
+	height: 100%;
+}
+img#Indicator{
+	position: absolute;
+	display: inline;
+	margin-top: -100em;
+	margin-left: 132px;
+}
+
+li#SmallLogo{
+	display: inline-block;
+	position: absolute;
+	z-index: -1;
+	right: 4%;
+	bottom: 0;
+	height: 90%;
+	width: 4em;
+	background-image: url('../img/cyd.png');
+	background-position: 0px 0px;
+	background-size: 2.4em;
+	background-repeat: no-repeat;
+}
+
+
+/* When the screen is 640px or smaller */
+@media (max-width: 640px){
+	ul#MobileHeader{
+		display: block;
+		width: 100%;
+		position: fixed;
+		background: grey;
+		background-image: url("../img/bg.png");
+		z-index: 2;
+	}
+	div#BigFatContainer{
+		position: relative;
+		margin: 0;
+		z-index: 1;
+		background: white;
+		padding: 0 5%;
+	}
+	div.post{
+		width: 100%;
+	}
+	h1{
+		margin: 2em 0 0.8em 0;
+	}
+}
+/* When the phone is too small or flipped to landscape */
+@media (max-height: 440px){
+	li.ib{
+		padding: 0 2%;
+	}
+	img#Logo{
+		display: none;
+	}
+	span#LogoReplacement{
+		display: block;
+	}
+	div#Navigation ul{
+		padding-top: 0.9em;
+	}
+}
+
+
+/* Fixing fucked up things in OSX */
+.frame::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.frame::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.frame::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.frame::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 8px;
+}

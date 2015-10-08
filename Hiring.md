@@ -2,7 +2,7 @@
 layout: page
 title: Hiring
 permalink: /hiring/
-published: true
+published: false
 ---
 
 Är du duktig på Windows, Linux, FreeBSD, relationsdatabaser, nginx, pf, ZFS eller TCP/IP?
