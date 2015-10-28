@@ -2,7 +2,7 @@
 layout: page
 title: Hiring
 permalink: /hiring/
-published: true
+published: false
 ---
 
 Är du duktig på Windows, Linux, FreeBSD, relationsdatabaser, nginx, pf, ZFS eller TCP/IP?
@@ -14,7 +14,7 @@ Grundläggande krav:
 * Ej förstaårsstudent - men gärna andra eller tredje året.
 * Svensktalande då support måste kunna ges på svenska.
 
-I CYD arbetar vi i stor utsträckning med automation. Vår lilla abretsstyrka och stora mängd användare ställer höga krav på en självgående miljö. Vi arbetar hårt med att skapa en strömlinjeformad miljö som tillåter laborering. 
+I CYD arbetar vi i stor utsträckning med automation. Vår lilla abretsstyrka och stora mängd användare ställer höga krav på en självgående miljö. Vi arbetar hårt med att skapa en strömlinjeformad miljö som tillåter laborering.
 
 Mer konkret levererar vi sektioners och andra studentföreningars hemsidor (D-sektionen.se, EliTH Racings wiki, Lingsektionen.se m fl), med totalt ca 113 000 sidträffar i månaden. Vi erbjuder gemensamma filytor för en mängd studentorganisationer och möjliggör för studenterna att arbeta och nå sina filer såväl vid klienterna i CYD som hemifrån. CYDs ca 40 klienter har ungefär 1500 unika användare varje månad!
 
@@ -23,4 +23,3 @@ Lite mer information om CYD-poolen finns på http://www.cyd.liu.se/.  Har du f
 Sök tjänsten senast 31 september genom att skicka ett email till  jobb@cyd.liu.se där du berättar vem du är och vad du kan.
 
 Med hjärtliga hälsningar, Christian och Hans-Filip.
-
