@@ -1,6 +1,10 @@
 CYD-poolens hemsida
 ===================
 
+[![Build Status](https://travis-ci.org/CYD-poolen/cyd.liu.se.svg?branch=master)](https://travis-ci.org/CYD-poolen/cyd.liu.se)
+
+Den hemsida du ser då du besöker cyd.liu.se
+
 Installation
 ------------
 
