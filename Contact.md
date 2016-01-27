@@ -8,10 +8,10 @@ The system administrators are available for support during semesters every week 
 
 <table>
 	<tr>
-		<td> Monday </td>    <td> 17:15 - 18:00 </td>
+		<td> Monday </td>    <td> 12:15 - 13:00 </td>
 	</tr>
 	<tr>
-		<td> Tuesday </td>   <td> 12:15 - 13:00 </td>
+		<td> Tuesday </td>   <td> 17:15 - 18:00 </td>
 	</tr>
 	<tr>
 		<td> Wednesday </td> <td> 12:15 - 13:00 </td>
