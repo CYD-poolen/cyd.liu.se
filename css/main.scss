@@ -145,8 +145,7 @@ span#LogoReplacement {
 	padding: 0.8em 0 0 1em;
 	display: none;
 }
-ul#MobileHeader {
-	padding: 0;
+nav#MobileHeader {
 	padding: 1.5% 2.5%;
 }
 .pointer {
@@ -197,7 +196,7 @@ div#BigFatContainer {
 	min-height: 100%;
 	margin: 0 2.5em 0 13.5em;
 }
-ul#MobileHeader {
+nav#MobileHeader {
 	display: none;
 }
 
@@ -240,7 +239,7 @@ li#SmallLogo {
 
 /* When the screen is 640px or smaller */
 @media (max-width: 640px) {
-	ul#MobileHeader {
+	nav#MobileHeader {
 		display: block;
 		width: 100%;
 		position: fixed;
