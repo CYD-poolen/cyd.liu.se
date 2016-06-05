@@ -8,15 +8,6 @@ This page contains a number of short guides for working remotely with the files 
 * Point at which the TOC is attached
 {:toc}
 
-## Accessing IDA and Lysator from CYD
-
-CYD-poolens' computers has the Application ThinLinc installed. ThinLinc is required in order to access the IDA systems from a remote location. This enables CYD-poolen users to work with applications that require a responsive graphical user interface remotely against IDA or Lysator systems.
-
-Guides for using ThinLinc on:
-
- - [IDA](https://www.ida.liu.se/~TDDC76/UPP_Course_Mtrl/tools/thinlinc/index.sv.shtml)
- - [Lysator](https://datorhandbok.lysator.liu.se/index.php/ThinLinc)
-
 
 ## Login from home
 
@@ -57,6 +48,15 @@ After that you can do:
 	$ mkdir CYD-remote
 	$ sshfs <liu-id>@ssh.cyd.liu.se: CYD-remote
 
+
+## Accessing IDA and Lysator from CYD
+
+CYD-poolens' computers has the Application ThinLinc installed. ThinLinc is required in order to access the IDA systems from a remote location. This enables CYD-poolen users to work with applications that require a responsive graphical user interface remotely against IDA or Lysator systems.
+
+Guides for using ThinLinc on:
+
+ - [IDA](https://www.ida.liu.se/~TDDC76/UPP_Course_Mtrl/tools/thinlinc/index.sv.shtml)
+ - [Lysator](https://datorhandbok.lysator.liu.se/index.php/ThinLinc)
 
 
 ## Fingerprints
