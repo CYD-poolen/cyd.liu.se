@@ -8,7 +8,7 @@ This page contains a number of short guides for working remotely with the files 
 
 ## Accessing IDA and Lysator from CYD
 
-CYD-poolens' computers has the Application ThinLinc installed. ThinLinc is required in order to access the IDA systems from a remote location. This enables CYD-poolen users to work remotely with IDA or Lysator systems. 
+CYD-poolens' computers has the Application ThinLinc installed. ThinLinc is required in order to access the IDA systems from a remote location. This enables CYD-poolen users to work with applications that require a responsive graphical user interface remotely against IDA or Lysator systems. 
 
 Guides for using ThinLinc on:
 
