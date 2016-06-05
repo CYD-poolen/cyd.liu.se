@@ -30,14 +30,14 @@ If you are using Windows you will have to download a ssh client such as [KiTTY](
 #### Linux and BSD
 If you have a file manager such as Nautilus or Thunar installed (which you normally do), open it and simply press Ctrl-L and enter:
 
-    ssh://<liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id>
+    ssh://<liu-id>@ssh.cyd.liu.se:
 
 You can then add a bookmark by dragging the folder named <liu-id> in the top bar to the sidebar on the left for easy access.
 
 You can also mount the remote folder using sshfs:
 
     $ mkdir CYD-remote
-    $ sshfs <liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id> CYD-remote
+    $ sshfs <liu-id>@ssh.cyd.liu.se:
 
 #### Windows
 
