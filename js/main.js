@@ -54,18 +54,17 @@ $(document).ready(function(){
 
 function getIndicatorPosition(){
 	var offset = 0;
-	if(location.hash === ""){
-		var page = location.pathname.split('/');
-		page = page[page.length - 2];
-		// If on a dated blog entry
-		if (!isNaN(page))
-			page = "";
-		// If we're at the index page.
-		if (page === "_site" || page === "")
-			offset = $('#Logo').position().top + 100;
-		else
-			offset = $('#' + page).position().top - 9;
-	}
+
+	var page = location.pathname.split('/');
+	page = page[page.length - 2];
+	// If on a dated blog entry
+	if (!isNaN(page))
+		page = "";
+	// If we're at the index page.
+	if (page === "_site" || page === "")
+		offset = $('#Logo').position().top + 100;
+	else
+		offset = $('#' + page).position().top - 9;
 
 	if(window.innerHeight < 420)
 		offset -= 156;

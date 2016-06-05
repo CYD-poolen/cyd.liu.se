@@ -3,8 +3,20 @@ layout: page
 title: Guides
 permalink: /guides/
 ---
-
 This page contains a number of short guides for working remotely with the files and applications you have accessible at CYD.
+
+* Point at which the TOC is attached
+{:toc}
+
+## Accessing IDA and Lysator from CYD
+
+CYD-poolens' computers has the Application ThinLinc installed. ThinLinc is required in order to access the IDA systems from a remote location. This enables CYD-poolen users to work with applications that require a responsive graphical user interface remotely against IDA or Lysator systems.
+
+Guides for using ThinLinc on:
+
+ - [IDA](https://www.ida.liu.se/~TDDC76/UPP_Course_Mtrl/tools/thinlinc/index.sv.shtml)
+ - [Lysator](https://datorhandbok.lysator.liu.se/index.php/ThinLinc)
+
 
 ## Login from home
 
@@ -17,24 +29,24 @@ If you are using Windows you will have to download a ssh client such as [KiTTY](
 
 ## Access your files from home
 
-### Linux and BSD
+#### Linux and BSD
 If you have a file manager such as Nautilus or Thunar installed (which you normally do), open it and simply press Ctrl-L and enter:
 
-    ssh://<liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id>
+    ssh://<liu-id>@ssh.cyd.liu.se:
 
 You can then add a bookmark by dragging the folder named <liu-id> in the top bar to the sidebar on the left for easy access.
 
 You can also mount the remote folder using sshfs:
 
     $ mkdir CYD-remote
-    $ sshfs <liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id> CYD-remote
+    $ sshfs <liu-id>@ssh.cyd.liu.se:
 
-### Windows
+#### Windows
 
 On windows you will have to download a program that support the scp protocol, we recommend [WinSCP](http://winscp.net/eng/index.php)
 
 
-### OSX
+#### OSX
 
 On OS X you will need sshfs installed. The easiest way to install sshfs is to install [Homebrew](http://http://brew.sh/) first. Then do:
 
@@ -43,7 +55,8 @@ On OS X you will need sshfs installed. The easiest way to install sshfs is to in
 After that you can do:
 
 	$ mkdir CYD-remote
-	$ sshfs <liu-id>@ssh.cyd.liu.se:/cyd/home/<liu-id> CYD-remote
+	$ sshfs <liu-id>@ssh.cyd.liu.se: CYD-remote
+
 
 
 ## Fingerprints

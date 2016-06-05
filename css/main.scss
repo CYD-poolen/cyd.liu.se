@@ -72,6 +72,8 @@ p, td, ul {
 }
 p, pre, table {
 	line-height: 1.8em;
+}
+p, pre, table, ul {
 	margin: 0 0 2em 0;
 }
 pre {
@@ -127,8 +129,9 @@ table {
 td, th {
 	padding: 0.3em;
 }
-ul {
-	margin: -1em 0 2em 0em;
+li>ul {
+	font-size: 75%;
+	margin: 0 0 0 1em;
 }
 ul.post-list, li {
 	list-style: none;
