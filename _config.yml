@@ -2,8 +2,8 @@
 title: CYD-poolen
 email: admin@cyd.liu.se
 description: > # this means to ignore newlines until "baseurl:"
-  CYD-poolens datorsal vid Linköpings Universitet
-baseurl: "" # the subpath of your site, e.g. /blog/
+  CYD-poolens datorsal vid Linköpings Universitet.
+baseurl: "/cyd/_site" # the subpath of your site, e.g. /blog/
 url: "http://cyd.liu.se" # the base hostname & protocol for your site
 exclude: [tests, vendor]
 
