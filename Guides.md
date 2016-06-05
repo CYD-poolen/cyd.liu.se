@@ -13,7 +13,7 @@ CYD-poolens' computers has the Application ThinLinc installed. ThinLinc is requi
 Guides for using ThinLinc on:
 
  - [IDA](https://www.ida.liu.se/~TDDC76/UPP_Course_Mtrl/tools/thinlinc/index.sv.shtml)
- - [Lysator](https://datorhandbok.lysator.liu.se/index.php/Fritz)
+ - [Lysator](https://datorhandbok.lysator.liu.se/index.php/ThinLinc)
 
 
 ## Login from home
