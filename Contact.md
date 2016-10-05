@@ -25,10 +25,6 @@ During study breaks and examination periods the support hours aren't manned - bu
 
 If you have question regarding CYD-poolen - please come and talk to us during one of our support hours or reach us through [mail](mailto:{{ site.email }}), [IRC](irc://#cydadmin@irc.quakenet.org) or through our [Facebook page](https://www.facebook.com/CYDpoolen).
 
-## Administrators
-
-The system administrators currently working in CYD-poolen are Hans-Filip Elo, Victor Näslund and Christian Luckey.
-
 ## Mail
 The best way to contact the system administrators is through mail. The address is [{{ site.email }}]({{ site.email }}).
 
