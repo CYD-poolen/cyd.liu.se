@@ -3,7 +3,7 @@ layout: post
 title: Organisationen CYD-poolen upphör 2017
 ---
 
-I och med ett möte med LiU-IT:s tekniska chef under förra veckan står det klart att efter 25 år i C-, Y-, D- och Lingsektionens tjänst ska CYD-poolen som organisation, datorsalen som den drivs idag och alla tillhörande tjänster komma avvecklas med början 1:a januari 2017. Detta i enlighet med [LinTeks](mailto:lintek@lintek.liu.se) godkännande av LiUs beslut om [digitala resurser för lärande]({{ site.baseurl }}/pdf/beslut-liu.pdf). [LinTek](mailto:lintek@lintek.liu.se) är medvetna och accepterar att detta beslut innebär neanstående.
+I och med ett möte med LiU-IT:s tekniska chef under förra veckan står det klart att efter 25 år i C-, Y-, D- och Lingsektionens tjänst ska CYD-poolen som organisation, datorsalen som den drivs idag och alla tillhörande tjänster komma att avvecklas med början 1:a januari 2017. Detta i enlighet med [LinTeks](mailto:lintek@lintek.liu.se) godkännande av LiUs beslut om [digitala resurser för lärande]({{ site.baseurl }}/pdf/beslut-liu.pdf). [LinTek](mailto:lintek@lintek.liu.se) är medvetna och accepterar att detta beslut innebär nedanstående.
 
 Vi administratörer på CYD talar såklart i egen sak men är av åsikten att beslutet är kortsiktigt och trångsynt. Kortsiktigt då det stryper studentorganisationernas tillgång till kontinuerlig IT-kompetens; dessa som står för LiUs främsta säljpunkt när det kommer till grundutbildning: studentlivet. Trångsynt då det under täckmanteln jämställdhet studenter emellan fråntar datastudenternas tillgång till en miljö där de ostört och i gemenskap med sina kursare kan arbeta på sin utbildning.
 
