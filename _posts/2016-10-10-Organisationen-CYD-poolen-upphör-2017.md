@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CYD-poolen upphör 2017
+title: Organisationen CYD-poolen upphör 2017
 ---
 
 I och med ett möte med LiU-IT:s tekniska chef under förra veckan står det klart att efter 25 år i C-, Y-, D- och Lingsektionens tjänst ska CYD-poolen som organisation, datorsalen som den drivs idag och alla tillhörande tjänster komma avvecklas med början 1:a januari 2017. Detta i enlighet med [LinTeks](mailto:lintek@lintek.liu.se) godkännande av LiUs beslut om [digitala resurser för lärande]({{ site.baseurl }}/pdf/Beslut LiU-2016-00818 Digitala resurser för lärande.pdf). [LinTek](mailto:lintek@lintek.liu.se) är medvetna och accepterar att detta beslut innebär neanstående.
