@@ -12,7 +12,7 @@ Vi administratörer på CYD talar såklart i egen sak men är av åsikten att be
 
 Datorsalen i sig kommer under 2017 övergå till LiU-IT:s drift likt de datorsalar som återfinns i Key-huset och kommer fortsätta existera i en överskådlig framtid. Den kommer tillgängliggöras för bokning av lärare i utbildningssyfte på samma vis alla andra datorsalar på universitetet kommer vara. Detta innebär att ni som användare kan tvingas lämna salen för att göra plats för schemalagd lektion.
 
-Samtliga studenter vid universitetet kommer få tillgång till lokalen med tillhörande studentkök samt rätt att logga in vid datorerna.
+Samtliga studenter vid universitetet kommer få tillgång till lokalen med tillhörande studentkök samt få rätt att logga in vid datorerna.
 
 
 ## Tjänster
