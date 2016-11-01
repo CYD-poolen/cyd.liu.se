@@ -65,8 +65,8 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
       <td>Dell PowerEdge R310</td>
       <td>Xeon X3440 2.53 Ghz</td>
       <td>2GB</td>
-      <td>250GB</td>
-      <td>OpenBSD</td>
+      <td>2*80GB Intel S3500</td>
+      <td>Debian</td>
       <td>Firewall</td>
     </tr>
     <tr>
@@ -80,10 +80,10 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
     </tr>
     <tr>
       <td>River</td>
-      <td>Sun Fire X2200</td>
-      <td>2×Opteron 2354 2.2 GHz</td>
-      <td>32GB</td>
-      <td>2×1TB</td>
+      <td>HP Proliant DL1000</td>
+      <td>2xIntel Xeon E5540 2.53 GHz</td>
+      <td>24GB</td>
+      <td>80 GB</td>
       <td>VMware ESXi</td>
       <td>Virtual machines</td>
     </tr>
@@ -119,36 +119,35 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
 
 ## Switches
 
-
 <table>
   <thead>
-    <th>Name</td>
-    <th>Model</td>
-    <th>Serving</td>
-  </tr>
-  <tr>
-    <td>Nandi</td>
-    <td>HP ProCurve 2610-24 </td>
-   <td>Workstations</td>
-  </tr>
-  <tr>
-    <td>Saffron</td>
-    <td>HP ProCurve 2610-24 </td>
-    <td>Workstations</td>
-  </tr>
-  <tr>
-    <td>Lenore</td>
-    <td>HP ProCurve 2610-24 </td>
-    <td>Workstations</td>
-  </tr>
-  <tr>
-    <td>Zoe</td>
-    <td>HP ProCurve 2810-24G </td>
-    <td>Servers</td>
-  </tr>
-  <tr>
-    <td>Tracey</td>
-    <td>HP ProCurve 2424M</td>
-    <td>Management</td>
-  </tr>
+    <tr>
+      <th>Name</th>
+      <th>Model</th>
+      <th>Serving</th>
+    </tr>  
+  </thead>
+  <tbody> 
+    <tr>
+      <td>Nandi</td>
+      <td>HP ProCurve 2610-24 </td>
+      <td>Workstations</td>
+    </tr>
+    <tr>
+      <td>Saffron</td>
+      <td>HP ProCurve 2610-24 </td>
+      <td>Workstations</td>
+    </tr>
+    <tr>
+      <td>Lenore</td>
+      <td>HP ProCurve 2610-24 </td>
+      <td>Workstations</td>
+    </tr>
+    <tr>
+      <td>Mal</td>
+      <td>2xCisco 2960-X as a stack</td>
+      <td>Back-end</td>
+    </tr>
+  </tbody>
 </table>
+
