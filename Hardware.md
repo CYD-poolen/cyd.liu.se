@@ -119,31 +119,35 @@ Below is a quick summary of the hardware that makes up CYD-poolen.
 
 ## Switches
 
-
 <table>
   <thead>
-    <th>Name</td>
-    <th>Model</td>
-    <th>Serving</td>
-  </tr>
-  <tr>
-    <td>Nandi</td>
-    <td>HP ProCurve 2610-24 </td>
-   <td>Workstations</td>
-  </tr>
-  <tr>
-    <td>Saffron</td>
-    <td>HP ProCurve 2610-24 </td>
-    <td>Workstations</td>
-  </tr>
-  <tr>
-    <td>Lenore</td>
-    <td>HP ProCurve 2610-24 </td>
-    <td>Workstations</td>
-  </tr>
-  <tr>
-    <td>Mal</td>
-    <td>2xCisco 2960-X as a stack</td>
-    <td>Back-end</td>
-  </tr>
+    <tr>
+      <th>Name</th>
+      <th>Model</th>
+      <th>Serving</th>
+    </tr>  
+  </thead>
+  <tbody> 
+    <tr>
+      <td>Nandi</td>
+      <td>HP ProCurve 2610-24 </td>
+      <td>Workstations</td>
+    </tr>
+    <tr>
+      <td>Saffron</td>
+      <td>HP ProCurve 2610-24 </td>
+      <td>Workstations</td>
+    </tr>
+    <tr>
+      <td>Lenore</td>
+      <td>HP ProCurve 2610-24 </td>
+      <td>Workstations</td>
+    </tr>
+    <tr>
+      <td>Mal</td>
+      <td>2xCisco 2960-X as a stack</td>
+      <td>Back-end</td>
+    </tr>
+  </tbody>
 </table>
+
