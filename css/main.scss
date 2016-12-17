@@ -29,7 +29,7 @@ caption, th {
 h1, h2, h3, h4, h5, h6, th {
 	font-size: 100%;
 	font-weight: normal;
-	color: grey;
+	color: red;
 	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
 }
 q:before, q:after {
@@ -59,7 +59,7 @@ body {
 	overflow-x: hidden;
 }
 a {
-	color: grey;
+	color: red;
 	text-decoration: none;
 }
 a:hover {
@@ -118,7 +118,7 @@ div#Navigation {
 	font-size: 1.8em;
 	height: 102%;
 	margin: 0 2em 0 0;
-	width: 155px;
+	width: 200px;
 	position: fixed;
 	box-shadow: -5px -5px 5px 0px rgba(0, 0, 0, 0.1) inset;
 }
@@ -229,7 +229,7 @@ img#Indicator {
 	position: absolute;
 	display: inline;
 	margin-top: -100em;
-	margin-left: 132px;
+	margin-left: 177px;
 }
 
 li#SmallLogo {
@@ -240,7 +240,7 @@ li#SmallLogo {
 	bottom: 0;
 	height: 90%;
 	width: 4em;
-	background-image: url('../img/cyd.png');
+	background-image: url('../img/weather-magic-logo.png');
 	background-position: 0px 0px;
 	background-size: 2.4em;
 	background-repeat: no-repeat;
@@ -304,7 +304,7 @@ li#SmallLogo {
 .frame::-webkit-scrollbar-thumb {
 	border-radius: 8px;
 	border: 2px solid white; /* Should match background, can't be transparent */
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(180, 180, 189, .5);
 }
 
 .frame::-webkit-scrollbar-track {

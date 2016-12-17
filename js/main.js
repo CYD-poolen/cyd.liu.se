@@ -62,7 +62,7 @@ function getIndicatorPosition(){
 		page = "";
 	// If we're at the index page.
 	if (page === "_site" || page === "")
-		offset = $('#Logo').position().top + 100;
+		offset = $('#Logo').position().top + 71;
 	else
 		offset = $('#' + page).position().top - 9;
 
