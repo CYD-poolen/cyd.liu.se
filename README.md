@@ -1,15 +1,11 @@
-CYD-poolens hemsida
+WeaterMagic static page
 ===================
-
-[![Build Status](https://travis-ci.org/CYD-poolen/cyd.liu.se.svg?branch=master)](https://travis-ci.org/CYD-poolen/cyd.liu.se)
-
-Den hemsida du ser då du besöker cyd.liu.se
 
 Installation
 ------------
 
 ``` bash
-$ git clone git@github.com:CYD-poolen/cyd.liu.se
+$ git clone git@github.com:WeatherMagic/static
 
 $ gem install jekyll
 
@@ -31,7 +27,7 @@ server{
 
 Utveckling
 ---------
-Utifall du inte vill köra en hel nginx-installation, även om jag personligen rekommenderar det då Jekyll serve tar magnituder mer RAM, på din utvecklingsmaskin kan man leverera hemsidan med följande ruby-server:
+Utifall du inte vill köra en hel nginx-installation på din utvecklingsmaskin kan man leverera hemsidan med följande ruby-server:
 
 ```bash
 $ jekyll serve
