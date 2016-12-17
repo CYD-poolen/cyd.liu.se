@@ -1,31 +1,30 @@
 ---
 layout: page
-title: Welcome to CYD-poolen
+title: Welcome to WeatherMagic
 menuInclude: false
 ---
 
 <div class="home">
 
-	<p> CYD-poolen is a computer lab for students attending the Y, D, IT, IP, U, Di and Ei programs at Linköping University. CYD-poolen aims to provide the best possible service to all students with access to the lab; feel free to contact us if there's anything you need.</p>
+    <p> WeatherMagic was a CDIO-project at Linköping University with the goal of visualizing data from climate simulations of different weather institutes. The final product can be found at <a href=http://weathermagic.se>weathermagic.se</a>.</p>
+    
 
-	<p> CYD-poolen is located in house B. The simplest way to get here is to use entrance B27 and follow the corridor straight ahed until you get to the C corridor (the third one). Take right and move into the C corridor, and at the left hand side you will find CYD-poolen. Below is a map displaying the occupancy of the computer lab	 for the last five minutes.</p>
 
+    <div>
+        <img src="{{ site.baseurl }}/img/wm-screenshot.jpg" id="Status" alt="WeatherMagic" />
+    </div>
 
-	<div>
-        <!-- <img src="{{ site.baseurl }}/status.png" id="Status" alt="CYD-poolen status overview." /> -->
-	</div>
+    <!--h2> Latest News: </h2>
 
-	<h2> Latest News: </h2>
+    <ul class="post-list">
+        {% for post in site.posts limit:3 %}
+        <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <h3 class="post-title">{{ post.title }}</h3>
+            <h5 class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</h5>
+        </a></li>
+        {% endfor %}
+    </ul>
 
-	<ul class="post-list">
-		{% for post in site.posts limit:3 %}
-		<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-			<h3 class="post-title">{{ post.title }}</h3>
-			<h5 class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</h5>
-		</a></li>
-		{% endfor %}
-	</ul>
-
-	<a href="{{ site.baseurl }}/news"> <h3>News archive</h3></a>
+    <a href="{{ site.baseurl }}/news"> <h3>News archive</h3></a -->
 
 </div>
