@@ -44,3 +44,4 @@ The board of CYD-poolen consists of one representative from each section, [the s
 * [Minutes from 2015-09-22]({{ site.baseurl }}/minutes/2015-09-22.pdf)
 * [Minutes from 2016-02-15]({{ site.baseurl }}/minutes/2016-02-15.pdf)
 * [Minutes from 2016-09-20]({{ site.baseurl }}/minutes/2016-09-20.pdf)
+* [Minutes from 2017-03-08]({{ site.baseurl }}/minutes/2017-03-08.pdf)
